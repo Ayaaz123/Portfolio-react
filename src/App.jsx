@@ -64,7 +64,7 @@ function App() {
       <section id="profile" className="p-5 text-center bg-light">
         <div className="container">
           <h2>About Me</h2>
-          <img src="/profile.jpg" alt="Abdul Ayaaz" className="profile-photo" />
+          <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Abdul Ayaaz" className="profile-photo"/>
           <p className="lead">A diligent and organized individual with a deep interest in coding and machine learning. Dedicated to academic excellence and personal growth.</p>
         </div>
       </section>
@@ -143,19 +143,19 @@ function App() {
           <h2>Skills</h2>
           <div className="skills-grid">
             <div className="skill-item">
-              <img src="/python.jpg" alt="Python" className="skill-image" />
+              <img src={`${process.env.PUBLIC_URL}/python.jpg`} alt="Python" className="skill-image" />
               <p>Python</p>
             </div>
             <div className="skill-item">
-              <img src="/html.png" alt="HTML" className="skill-image" />
+              <img src={`${process.env.PUBLIC_URL}/html.png`} alt="HTML" className="skill-image" />
               <p>HTML</p>
             </div>
             <div className="skill-item">
-              <img src="/css.png" alt="CSS" className="skill-image" />
+              <img src={`${process.env.PUBLIC_URL}/css.png`} alt="CSS" className="skill-image" />  
               <p>CSS</p>
             </div>
             <div className="skill-item">
-              <img src="/sql.png" alt="SQL" className="skill-image" />
+              <img src={`${process.env.PUBLIC_URL}/sql.png`} alt="SQL" className="skill-image" />
               <p>SQL</p>
             </div>
           </div>
